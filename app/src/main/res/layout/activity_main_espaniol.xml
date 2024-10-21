@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Campo para ingresar la palabra en español -->
+    <EditText
+        android:id="@+id/et_palabra_espaniol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese palabra en español" />
+
+    <!-- Botón para realizar la traducción -->
+    <Button
+        android:id="@+id/btn_traducir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Traducir"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
